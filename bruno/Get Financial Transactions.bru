@@ -1,0 +1,11 @@
+meta {
+  name: Get Financial Transactions
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:{{Port}}/clientes/2/extrato
+  body: none
+  auth: none
+}

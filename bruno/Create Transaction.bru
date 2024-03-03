@@ -1,0 +1,19 @@
+meta {
+  name: Create Transaction
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:{{Port}}/clientes/2/transacoes
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "valor": 80000,
+    "tipo": "c",
+    "descricao": "1"
+  }
+}

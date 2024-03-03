@@ -1,0 +1,11 @@
+meta {
+  name: healthcheck
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:{{Port}}/healthcheck
+  body: none
+  auth: none
+}

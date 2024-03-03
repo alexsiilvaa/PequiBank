@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "name": "PequiBank",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git",
+    "bin",
+    "obj",
+    ".vs"
+  ]
+}
